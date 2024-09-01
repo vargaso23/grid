@@ -1,0 +1,284 @@
+body {
+    background-color: rgb(30, 214, 214);
+    }
+    .border {
+    border: 1px solid black;
+    }
+    .flex-box {
+    display: flex;
+    background-color: rgb(235, 154, 107);
+    }
+    .img {
+    width: 35%;
+    margin: 5px;
+    border: 1px solid rgb(22, 22, 21);
+    border-radius: 20%;
+    }
+
+    .nombre {
+    justify-content: center;
+    text-align: center;
+    font-size: 200%;
+
+    }
+    .menu {
+    
+    text-align: center;
+    
+    }
+    .registro {
+    
+
+    text-align: center;
+    }
+    .buscar {
+    
+    text-align: center;
+    }
+
+    .cuerpo {
+    display: flex;
+    background-color: rgb(224, 130, 63);
+    text-align: center;
+    height: 70%;
+
+
+    }
+    .parrafo {
+    margin: 1px;
+    background-color: white;
+    text-align: center;
+
+    
+    }
+    .imagen {
+    width: 45%;
+    margin: auto;
+    }
+
+    .piedepagina{
+        text-align: center;
+        height: 20vh;
+        border: 1px solid;
+        background-color: rgb(214, 128, 79);
+
+    }
+    .contacto{
+        background-color: rgb(214, 128, 79);
+        text-align: center;
+    }
+    .redes{
+        color: rgb(244, 224, 199);
+    }
+
+    * {
+    box-sizing: border-box;
+    }
+
+    @media screen and (max-width: 300px) {
+    body {
+        background-color: yellow;
+    }
+    .sm-1 {
+        width: 8.3333%;
+    }
+    .sm-2 {
+        width: 16.666%;
+    }
+    .sm-3 {
+        width: 25%;
+    }
+    .sm-4 {
+        width: 33.333%;
+    }
+    .sm-5 {
+        width: 41.666%;
+    }
+    .sm-6 {
+        width: 50%;
+    }
+    .sm-7 {
+        width: 58.333%;
+    }
+    .sm-8 {
+        width: 66.666%;
+    }
+    .sm-9 {
+        width: 75%;
+    }
+    .sm-10 {
+        width: 83.333%;
+    }
+    .sm-11 {
+        width: 91.666%;
+    }
+    .sm-12 {
+        width: 100%;
+    }
+    }
+    @media screen and (min-width: 301px) and (max-width: 600px) {
+    body {
+        background-color: rgb(8, 0, 253);
+    }
+    .md-1 {
+        width: 8.3333%;
+    }
+    .md-2 {
+        width: 16.666%;
+    }
+    .md-3 {
+        width: 25%;
+    }
+    .md-4 {
+        width: 33.333%;
+    }
+    .md-5 {
+        width: 41.666%;
+    }
+    .md-6 {
+        width: 50%;
+    }
+    .md-7 {
+        width: 58.333%;
+    }
+    .md-8 {
+        width: 66.666%;
+    }
+    .md-9 {
+        width: 75%;
+    }
+    .md-10 {
+        width: 83.333%;
+    }
+    .md-11 {
+        width: 91.666%;
+    }
+    .md-12 {
+        width: 100%;
+    }
+    }
+
+    @media screen and (min-width: 601px) and (max-width: 900px) {
+    body {
+        background-color: rgb(250, 22, 22);
+    }
+    .lg-1 {
+        width: 8.3333%;
+    }
+    .lg-2 {
+        width: 16.666%;
+    }
+    .lg-3 {
+        width: 25%;
+    }
+    .lg-4 {
+        width: 33.333%;
+    }
+    .lg-5 {
+        width: 41.666%;
+    }
+    .lg-6 {
+        width: 50%;
+    }
+    .lg-7 {
+        width: 58.333%;
+    }
+    .lg-8 {
+        width: 66.666%;
+    }
+    .lg-9 {
+        width: 75%;
+    }
+    .lg-10 {
+        width: 83.333%;
+    }
+    .lg-11 {
+        width: 91.666%;
+    }
+    .lg-12 {
+        width: 100%;
+    }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1200px) {
+    body {
+        background-color: violet;
+    }
+
+    .xl-1 {
+        width: 8.3333%;
+    }
+    .xl-2 {
+        width: 16.666%;
+    }
+    .xl-3 {
+        width: 25%;
+    }
+    .xl-4 {
+        width: 33.333%;
+    }
+    .xl-5 {
+        width: 41.666%;
+    }
+    .xl-6 {
+        width: 50%;
+    }
+    .xl-7 {
+        width: 58.333%;
+    }
+    .xl-8 {
+        width: 66.666%;
+    }
+    .xl-9 {
+        width: 75%;
+    }
+    .xl-10 {
+        width: 83.333%;
+    }
+    .xl-11 {
+        width: 91.666%;
+    }
+    .xl-12 {
+        width: 100%;
+    }
+    }
+    @media screen and (min-width: 1200px) {
+    body {
+        background-color: green;
+    }
+    .xxl-1 {
+        width: 8.3333%;
+    }
+    .xxl-2 {
+        width: 16.666%;
+    }
+    .xxl-3 {
+        width: 25%;
+    }
+    .xxl-4 {
+        width: 33.333%;
+    }
+    .xxl-5 {
+        width: 41.666%;
+    }
+    .xxl-6 {
+        width: 50%;
+    }
+    .xxl-7 {
+        width: 58.333%;
+    }
+    .xxl-8 {
+        width: 66.666%;
+    }
+    .xxl-9 {
+        width: 75%;
+    }
+    .xxl-10 {
+        width: 83.333%;
+    }
+    .xxl-11 {
+        width: 91.666%;
+    }
+    .xxl-12 {
+        width: 100%;
+    }
+    }
